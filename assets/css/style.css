@@ -1,141 +1,67 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-  }
-
-  .container {
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    text-align: center;
-  }
-
-  table.number-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-  }
-
-  table.number-table th, table.number-table td {
-    padding: 8px;
-    border: 1px solid #ddd;
-    text-align: center;
-  }
-
-  table.number-table th {
-    background-color: #f2f2f2;
-    font-weight: bold;
-  }
-
-  /* ... Estilos anteriores ... */
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
 
 .container {
-    /* ... Outros estilos ... */
-    max-width: 500px;
-    margin: 0 auto;
-  } 
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+}
 
-  .input-container {
-    margin-bottom: 20px;
-    text-align: left;
-  }
-  
-  .input-field {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-  }
-  
-  .button {
-    /* ... Outros estilos ... */
-    display: inline-block;
-    background-color: #1307af;
-    color: white;
-    border: aqua;
-    padding: 10px 20px;
-    border-radius: 15px;
-    cursor: pointer;
-  }
-  
-/* ... Estilos anteriores ... */
+.button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 15px 80px;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-bottom: 10px; /* Ajuste este valor para mover o botão para cima ou para baixo */
+}
 
-.container {
-    /* ... Outros estilos ... */
-    max-width: 500px;
-    margin: 0 auto;
-  }
-  
-  .input-container {
-    margin-bottom: 20px;
-    text-align: left;
-  }
-  
-  .input-field {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-  }
-  
- /* ... Outros estilos ... */
-
-.input-container {
-  margin-bottom: 20px;
-  text-align: left;
+.estilo {
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .input-field {
-  width: 100%;
+  
+  width: 90%;
   padding: 10px;
   border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 15px;
   font-size: 16px;
+  margin-bottom: 35px; /* Espaçamento entre campos */
 }
 
 .input-field:focus {
-  border-color: #0a0a0a;
+  border-color: #007bff;
   outline: none;
 }
 
-/* ... Outros estilos ... */
+.form {
+  margin-top: 20px;
+}
 
+.number-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
 
-/* ... Outros estilos ... */
+.number-table th, .number-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
 
-/*.input-container {
-    margin-bottom: 20px;
-    text-align: left;
-  }*/
-  
-  /*.input-field {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-  } */
-  
-  /*.input-field:focus {
-    border-color: #007bff;
-    outline: none;
-  }
-  */
-  /* ... Outros estilos ... */
-  .estilo {
-    
-    background-color: #020305;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 95px;
-    
-  }
+.number-table th {
+  background-color: #007bff;
+  color: white;
+}
